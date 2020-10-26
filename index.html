@@ -1,0 +1,152 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation Page</title>
+  <style>.container{
+    display:flex;
+     flex-direction: row;
+           
+}
+.navbar{
+  positin:fixed;
+  overflow-y: auto;
+height: 100px;
+}
+@media(max-width:850px)
+{
+  
+  body{
+    background-color:rgb(0,0,0,0.5);
+  }
+}
+a{
+  text-decoration:none;
+}</style>
+</head>
+<body>
+  <div class="container">
+  <nav id="navbar">
+    <header>C Language</header>
+   <a href="#Variables_and_Datatypes" class="nav-link">Variables and Datatypes</a><hr>
+<a href="#Array" class="nav-link">Array</a><br><hr>
+<a href="#Function" class="nav-link">Function</a><br><hr>
+<a href="#Pointer" class="nav-link">Pointer</a><br><hr>
+<a href="#File_Handling" class="nav-link">File Handling</a><br><hr>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Variables_and_Datatypes">
+      <header>Variables and Datatypes</header>
+      <p>Lorem  lorem </p>
+      <code>
+        int x=2;
+        int y=9;
+       int sum=x+y;
+        printf("%d",sum);
+      </code>
+      
+    </section>
+    
+    
+     <section class="main-section" id="Array">
+      <header>Array</header>
+      <p>An array in C or C++ is a collection of items stored at contiguous memory locations and elements can be accessed randomly using indices of an array.</p>
+       <p>They are used to store similar type of elements as in the data type must be the same for all elements. </p><p>They can be used to store collection of primitive data types such as int, float, double, char, etc of any particular type. To add to it, an array in C or C++ can store derived data types such as the structures, pointers etc.</p><p> Given below is the picturesque representation of an array.</p>
+      <code>
+        #include<stdio.h>
+        #include<conio.h>
+        int main()
+        {
+        return 0;
+        }
+      </code>
+         <code>
+        #include<stdio.h>
+        #include<conio.h>
+        int main()
+        {
+        return 0;
+        }
+      </code>
+            <code>
+        #include<stdio.h>
+        #include<conio.h>
+        int main()
+        {
+        return 0;
+        }
+      </code>
+               <code>
+        #include<stdio.h>
+        #include<conio.h>
+        int main()
+        {
+        return 0;
+        }
+      </code>
+      
+    </section>
+    
+    
+     <section class="main-section" id="Function">
+      <header>Function</header>
+  <p>  A function is a group of statements that together perform a task. Every C program has at least one function, which is main(), and all the most trivial programs can define additional functions.</p>
+
+<p>You can divide up your code into separate functions. How you divide up your code among different functions is up to you, but logically the division is such that each function performs a specific task.</p>
+
+<p>A function declaration tells the compiler about a function's name, return type, and parameters. A function definition provides the actual body of the function.</p>
+
+<p>The C standard library provides numerous built-in functions that your program can call. For example, strcat() to concatenate two strings, memcpy() to copy one memory location to another location, and many more functions.</p>
+
+
+     
+      <li>Recurssion
+      </li>
+        <li>Tower of Hanoi
+      </li>
+        <li>Coin problem
+      </li>
+        <li>Direction problem
+      </li>
+        <li>Spanning tree
+      </li>
+    </section>
+    
+    
+     <section class="main-section" id="Pointer">
+      <header>Pointer</header>
+      <p>The pointer in C language is a variable which stores the address of another variable. This variable can be of type int, char, array, function, or any other pointer. The size of the pointer depends on the architecture. However, in 32-bit architecture the size of a pointer is 2 byte.</p>
+
+       <p>Consider the following example to define a pointer which stores the address of an integer.</p>
+
+<code>int n = 10;   
+int* p = &n; // Variable p of type pointer is pointing to the address of the variable n of type integer.   
+      
+      </code>
+      <li>
+      </li>
+    </section>
+    
+     <section class="main-section" id="File_Handling">
+      <header>File Handling</header>
+    <P>So far the operations using C program are done on a prompt / terminal which is not stored anywhere. But in the software industry, most of the programs are written to store the information fetched from the program. One such way is to store the fetched information in a file. Different operations that can be performed on a file are:</P>
+
+       <LI>Creation of a new file (fopen with attributes as “a” or “a+” or “w” or “w++”)</li>
+       <li>Opening an existing file (fopen</li>
+       <li>Reading from file (fscanf or fgets)</li>
+       <li>Writing to a file (fprintf or fputs)</li>
+<li>Moving to a specific location in a file (fseek, rewind)</li>
+       <li>Closing a file (fclose)</li>
+      <code>
+      </code>
+      <li>
+      </li>
+    </section>
+    
+  </main>
+  </div>
+</body>
+</html>
